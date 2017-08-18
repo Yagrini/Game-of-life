@@ -1,0 +1,82 @@
+*{
+    margin:0px;
+    text-align: center;
+}
+body{
+    background-color: #001f3f;
+}
+.container{
+    text-align: center;
+    font-family: Orbitron, sans-serif;
+}
+#title{
+    background-color: #001f3f;
+    margin-bottom: 25px;
+    height: 60px;
+    border-bottom: 1px solid #4c5474;
+}
+#lien{
+    padding: 25px;
+    color:#4c5474;
+    font-family: monospace;
+    font-size: 30pt;
+    text-shadow: 0px 1px 1px #39CCCC;
+    text-decoration: none;
+}
+#top{
+    margin: 0 auto;
+    display: flex;
+    width: 655px;
+    justify-content:space-between;
+    padding:10px 20px 10px 25px;
+    background-color: black;
+    color:#fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0px -1px 1px #4c5474;
+}
+#all{
+    margin:0 auto;
+    width: 700px;
+    border-bottom: 1px solid #333;
+    border-left: 1px solid #333;
+    display: flex;
+    flex-wrap : wrap;
+    box-shadow: 0px 0px 2px #4c5474;
+}
+#bottom{
+    margin: 0 auto;
+    width: 700px;
+    padding-top:15px;
+    padding-bottom:10px;
+    background-color: black;
+    color:#fff;
+    box-shadow: 0px 1px 1px #4c5474;
+}
+.alive , .dead{
+    height: 9px;
+    width: 9px;
+    border-top: 1px solid #333;
+    border-right:1px solid #333;
+    background-color: black;
+    cursor: pointer;
+}
+.alive{
+    background-color: white;
+}
+button{
+    cursor: pointer;
+    width:60px;
+    height: 20px;
+    background-color: #001f3f;
+    border: none;
+    margin:1px;
+    font-family: Orbitron, sans-serif;
+    color:#39CCCC;
+    border:1px solid #3CCCCC;
+    border-radius:2px;
+    outline: none;
+}
+button:active{
+    background-color: #8CCCCC;
+}
