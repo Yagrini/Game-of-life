@@ -1,2 +1,3 @@
 # Game-of-life
-[*!!!! DEMO !!!!!*] (https://codepen.io/Yagrini/full/vJpMYm/)
+
+[*!!! Demo !!!!*](https://codepen.io/Yagrini/full/vJpMYm/)
